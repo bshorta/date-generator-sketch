@@ -1,10 +1,8 @@
-# Sketch-Plugin---DateGen
+# Date Generator - Sketch plugin
 
-Based on ....
+This plugin generates random formatted dates. You can customize the js files to match your desired date format
 
-When you work with repetitive data, (e.g. data table), if you simply copy and paste the rows, all the numbers will be the same, which doesn't make your design look realistic. But if you manually change each of them, that could be quite tedious.
-
-This plugin generates random formatted dates. You can modify the js files to include whatever kind of number you need.
+# Simply select the desired text objects and run the plugin.
 
 ![alt tag](https://raw.githubusercontent.com/auxdesigner/Sketch-Plugin---NumGen/master/demo.gif)
 
