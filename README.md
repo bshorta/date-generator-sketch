@@ -1,4 +1,4 @@
-# Date Generator - Sketch plugin v 0.01
+# Date Generator - Sketch plugin v0.01
 
 This plugin generates random formatted dates. You can customize the .js files to match your desired date format
 
