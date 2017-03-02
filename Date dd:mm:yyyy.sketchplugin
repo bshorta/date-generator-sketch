@@ -1,3 +1,0 @@
-#import 'js/utility.js'
-#import 'js/loadDateddmmyyyy.js'
-loadText();

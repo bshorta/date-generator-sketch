@@ -1,0 +1,56 @@
+{
+    "name": "Date Generator",
+    "description": "Generate random dates",
+    "author": "Bernardo Horta",
+    "version": "0.1.1",
+    "homepage": "http://bernardo.cc",
+    "identifier": "cc.bernardo",
+    "updateURL": "https://github.com/bshorta/date-generator-sketch.git",
+	"compatibleVersion": 40,
+	"bundleVersion": 1,
+	"commands": [
+    {
+      "name": "Mar 27, 1985",
+      "identifier": "format7",
+      "script": "dateGen.js",
+      "handler": "format_7"
+    },
+     {
+      "name": "Mar 27",
+      "identifier": "format6",
+      "script": "dateGen.js",
+      "handler": "format_6"
+    },
+    {
+      "name": "27-03-1985",
+      "identifier": "format5",
+      "script": "dateGen.js",
+      "handler": "format_5"
+    },
+    {
+      "name": "27 Mar 1985",
+      "identifier": "format4",
+      "script": "dateGen.js",
+      "handler": "format_4"
+    },
+     {
+      "name": "27 Mar",
+      "identifier": "format3",
+      "script": "dateGen.js",
+      "handler": "format_3"
+    },
+    {
+      "name": "27/03/1985",
+      "identifier": "format2",
+      "script": "dateGen.js",
+      "handler": "format_2"
+    },
+    {
+      "name": "27/03",
+      "identifier": "format1",
+      "script": "dateGen.js",
+      "handler": "format_1"
+    }
+  ]
+}
+
