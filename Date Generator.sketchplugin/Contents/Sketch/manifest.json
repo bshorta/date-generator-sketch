@@ -10,7 +10,7 @@
 	"bundleVersion": 1,
 	"commands": [
     {
-      "name": "Mar 27, 1985",
+      "name": "Mar 27, 2014",
       "identifier": "format7",
       "script": "dateGen.js",
       "handler": "format_7"
@@ -22,13 +22,13 @@
       "handler": "format_6"
     },
     {
-      "name": "27-03-1985",
+      "name": "27-03-2014",
       "identifier": "format5",
       "script": "dateGen.js",
       "handler": "format_5"
     },
     {
-      "name": "27 Mar 1985",
+      "name": "27 Mar 2014",
       "identifier": "format4",
       "script": "dateGen.js",
       "handler": "format_4"
@@ -40,7 +40,7 @@
       "handler": "format_3"
     },
     {
-      "name": "27/03/1985",
+      "name": "27/03/2014",
       "identifier": "format2",
       "script": "dateGen.js",
       "handler": "format_2"
