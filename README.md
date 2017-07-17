@@ -5,6 +5,6 @@ This plugin generates random dates. You can select up to 7 pre-configured format
 # Usage:
 Simply select the desired text objects and run the plugin.
 
-![alt tag](http://bernardo.cc/misc/date-generator-sketch-plugin/date-generator-sketch-plugin-animation.gif)
+![alt tag](http://bernardo.cc/misc/date-generator-sketch-plugin-animation.gif)
 
 
