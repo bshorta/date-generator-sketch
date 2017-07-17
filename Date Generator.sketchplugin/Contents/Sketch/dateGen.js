@@ -34,12 +34,26 @@ if (selectedCount == 0) {
         		}
         		finalText = dia+"/"+mes;
 		        break;
+		        
+		    case "A_2":
+				if (mes < 10) {
+        			mes = "0"+mes;
+        		}
+        		finalText = mes+"/"+dia;
+		        break;
           		
 		     case "B":
 				if (mes < 10) {
         			mes = "0"+mes;
         		}
         		finalText = dia+"/"+mes+"/"+ano;
+		        break;
+		    
+		    case "B_2":
+				if (mes < 10) {
+        			mes = "0"+mes;
+        		}
+        		finalText = mes+"/"+dia+"/"+ano;
 		        break;
 		        
 		    case "C":
@@ -59,6 +73,13 @@ if (selectedCount == 0) {
         			mes = "0"+mes;
         		}
 				finalText = dia+"-"+mes+"-"+ano;
+          		break;
+          		
+          	 case "E_2":
+		         if (mes < 10) {
+        			mes = "0"+mes;
+        		}
+				finalText = mes+"-"+dia+"-"+ano;
           		break;
 		        
 		    case "F":
@@ -87,10 +108,23 @@ function format_1(context, identifier) {
 	myCase = "A";
 	createDate(context, myCase);
 }
+
+function format_1_2(context, identifier) {
+	myCase = "A_2";
+	createDate(context, myCase);
+}
+
+
 function format_2(context, identifier) {
 	myCase = "B";
 	createDate(context, myCase);
 }
+
+function format_2_2(context, identifier) {
+	myCase = "B_2";
+	createDate(context, myCase);
+}
+
 function format_3(context, identifier) {
 	myCase = "C";
 	createDate(context, myCase);
@@ -103,6 +137,15 @@ function format_5(context, identifier) {
 	myCase = "E";
 	createDate(context, myCase);
 }
+
+function format_5_2(context, identifier) {
+	myCase = "E_2";
+	createDate(context, myCase);
+}
+
+
+
+
 function format_6(context, identifier) {
 	myCase = "F";
 	createDate(context, myCase);

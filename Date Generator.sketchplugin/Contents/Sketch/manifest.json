@@ -1,6 +1,7 @@
 {
     "name": "Date Generator",
     "description": "Generate random dates",
+    "appcast": "http://bernardo.cc/misc/date-generator-sketch/date-generator-appcast.xml",
     "author": "Bernardo Horta",
     "version": "0.1.1",
     "homepage": "http://bernardo.cc",
@@ -27,6 +28,15 @@
       "script": "dateGen.js",
       "handler": "format_5"
     },
+    
+    {
+      "name": "03-27-2014",
+      "identifier": "format5_2",
+      "script": "dateGen.js",
+      "handler": "format_5_2"
+    },
+    
+    
     {
       "name": "27 Mar 2014",
       "identifier": "format4",
@@ -45,12 +55,28 @@
       "script": "dateGen.js",
       "handler": "format_2"
     },
+    
+    {
+      "name": "03/27/2014",
+      "identifier": "format2_2",
+      "script": "dateGen.js",
+      "handler": "format_2_2"
+    },
+    
     {
       "name": "27/03",
       "identifier": "format1",
       "script": "dateGen.js",
       "handler": "format_1"
+    },
+    
+     {
+      "name": "03/27",
+      "identifier": "format1_2",
+      "script": "dateGen.js",
+      "handler": "format_1_2"
     }
+    
   ]
 }
 
